@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    min-height: 84vh;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: bold;
+    height: 90px;
+    background-color: #4ecda2;
+    color: white;
+    width: 100%;
+}
+
+.logo{
+    width: 15%;
+    display: flex;
+}
