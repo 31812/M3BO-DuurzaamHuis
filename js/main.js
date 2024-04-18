@@ -37,3 +37,19 @@ let config = {
 }
 
 let myChart = new Chart(ctx, config);
+
+const lampaan = document.getElementById("lampaan")
+const lampuit = document.getElementById("lampuit")
+
+
+on.lampaan("click", () => {
+    img.src = "/img/lampaan.jpg";
+    lampaan.src = img.src
+})
+
+
+
+off.lampuit("click", () => {
+    img.src = "/img/lampuit.jpg";
+    lampaan.src = img.src
+})

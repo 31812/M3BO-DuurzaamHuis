@@ -69,3 +69,29 @@ header{
 .box-1{
     display: flex;
 }
+
+.huisImg {
+    z-index: 1
+}
+
+.graden {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    color: black;
+}
+
+.buitenImg{
+     z-index: 1;
+}
+
+.box-8{
+    background-color: white;
+    color: black;
+}
+
+.box-7{
+    background-color: white;
+    color: black;
+}
+
